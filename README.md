@@ -135,6 +135,22 @@ for ( i = 0; i < 100; i++ ) {
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/math/base/special/ellipe`][@stdlib/math/base/special/ellipe]: compute the complete elliptic integral of the second kind.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -195,6 +211,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [@fukushima:2009a]: https://doi.org/10.1007/s10569-009-9228-z
 
 [@fukushima:2015a]: https://doi.org/10.1016/j.cam.2014.12.038
+
+<!-- <related-links> -->
+
+[@stdlib/math/base/special/ellipe]: https://github.com/stdlib-js/math-base-special-ellipe
+
+<!-- </related-links> -->
 
 </section>
 
