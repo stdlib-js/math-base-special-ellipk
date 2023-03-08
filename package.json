@@ -42,7 +42,7 @@
   "dependencies": {
     "@stdlib/constants-float64-half-pi": "^0.0.8",
     "@stdlib/constants-float64-pinf": "^0.0.8",
-    "@stdlib/math-base-napi-unary": "^0.0.8",
+    "@stdlib/math-base-napi-unary": "^0.0.9",
     "@stdlib/math-base-special-ln": "^0.0.6",
     "@stdlib/math-base-special-sqrt": "^0.0.8",
     "@stdlib/utils-library-manifest": "^0.0.8"
