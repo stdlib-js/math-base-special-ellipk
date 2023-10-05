@@ -32,10 +32,10 @@ var ellipk = require( './../../dist' );
 
 // FIXTURES //
 
-var mediumPositive = require( './../..xtures/cpp/medium_positive.json' );
-var closeToUnity = require( './../..xtures/cpp/close_to_unity.json' );
-var mediumNegative = require( './../..xtures/cpp/medium_negative.json' );
-var largeNegative = require( './../..xtures/cpp/large_negative.json' );
+var mediumPositive = require( './../fixtures/cpp/medium_positive.json' );
+var closeToUnity = require( './../fixtures/cpp/close_to_unity.json' );
+var mediumNegative = require( './../fixtures/cpp/medium_negative.json' );
+var largeNegative = require( './../fixtures/cpp/large_negative.json' );
 
 
 // TESTS //
