@@ -257,6 +257,7 @@ int main( void ) {
 ## See Also
 
 -   <span class="package-name">[`@stdlib/math-base/special/ellipe`][@stdlib/math/base/special/ellipe]</span><span class="delimiter">: </span><span class="description">compute the complete elliptic integral of the second kind.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/ellipj`][@stdlib/math/base/special/ellipj]</span><span class="delimiter">: </span><span class="description">compute the Jacobi elliptic functions sn, cn, and dn.</span>
 
 </section>
 
@@ -333,6 +334,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 <!-- <related-links> -->
 
 [@stdlib/math/base/special/ellipe]: https://github.com/stdlib-js/math-base-special-ellipe
+
+[@stdlib/math/base/special/ellipj]: https://github.com/stdlib-js/math-base-special-ellipj
 
 <!-- </related-links> -->
 
