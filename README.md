@@ -58,32 +58,14 @@ where the parameter `m` is related to the modulus `k` by `m = k^2`.
 
 <!-- /.intro -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/math-base-special-ellipk
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var ellipk = require( '@stdlib/math-base-special-ellipk' );
+import ellipk from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ellipk@esm/index.mjs';
 ```
 
 #### ellipk( m )
@@ -130,9 +112,14 @@ v = ellipk( NaN );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var randu = require( '@stdlib/random-base-randu' );
-var ellipk = require( '@stdlib/math-base-special-ellipk' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
+import ellipk from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ellipk@esm/index.mjs';
 
 var m;
 var i;
@@ -141,6 +128,10 @@ for ( i = 0; i < 100; i++ ) {
     m = -1.0 + ( randu() * 2.0 );
     console.log( 'ellipk(%d) = %d', m, ellipk( m ) );
 }
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -149,93 +140,7 @@ for ( i = 0; i < 100; i++ ) {
 
 <!-- C interface documentation. -->
 
-* * *
 
-<section class="c">
-
-## C APIs
-
-<!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
-
-<section class="intro">
-
-</section>
-
-<!-- /.intro -->
-
-<!-- C usage documentation. -->
-
-<section class="usage">
-
-### Usage
-
-```c
-#include "stdlib/math/base/special/ellipk.h"
-```
-
-#### stdlib_base_ellipk( m )
-
-Computes the [complete elliptic integral of the first kind][elliptic-integral].
-
-```c
-double out = stdlib_base_ellipk( 0.5 );
-// returns ~1.854
-
-out = stdlib_base_ellipk( -1.0 );
-// returns ~1.311
-```
-
-The function accepts the following arguments:
-
--   **x**: `[in] double` input value.
-
-```c
-double stdlib_base_ellipk( const double m );
-```
-
-</section>
-
-<!-- /.usage -->
-
-<!-- C API usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
-
-<section class="notes">
-
-</section>
-
-<!-- /.notes -->
-
-<!-- C API usage examples. -->
-
-<section class="examples">
-
-### Examples
-
-```c
-#include "stdlib/math/base/special/ellipk.h"
-#include <stdlib.h>
-#include <stdio.h>
-
-int main( void ) {
-    double m;
-    double v;
-    int i;
-    
-    for ( i = 0; i < 100; i++ ) {
-        m = -1.0 + ( ( (double)rand() / (double)RAND_MAX ) * 2.0 );
-        v = stdlib_base_ellipk( m );
-        printf( "ellipk(%lf) = %lf\n", m, v );
-    }
-}
-```
-
-</section>
-
-<!-- /.examples -->
-
-</section>
-
-<!-- /.c -->
 
 * * *
 
@@ -274,7 +179,7 @@ int main( void ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -338,9 +243,9 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/ellipe]: https://github.com/stdlib-js/math-base-special-ellipe
+[@stdlib/math/base/special/ellipe]: https://github.com/stdlib-js/math-base-special-ellipe/tree/esm
 
-[@stdlib/math/base/special/ellipj]: https://github.com/stdlib-js/math-base-special-ellipj
+[@stdlib/math/base/special/ellipj]: https://github.com/stdlib-js/math-base-special-ellipj/tree/esm
 
 <!-- </related-links> -->
 
