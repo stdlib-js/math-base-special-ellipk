@@ -131,16 +131,16 @@ v = ellipk( NaN );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var randu = require( '@stdlib/random-base-randu' );
+var uniform = require( '@stdlib/random-array-uniform' );
+var logEachMap = require( '@stdlib/console-log-each-map' );
 var ellipk = require( '@stdlib/math-base-special-ellipk' );
 
-var m;
-var i;
+var opts = {
+    'dtype': 'float64'
+};
+var m = uniform( 100, -1.0, 1.0, opts );
 
-for ( i = 0; i < 100; i++ ) {
-    m = -1.0 + ( randu() * 2.0 );
-    console.log( 'ellipk(%d) = %d', m, ellipk( m ) );
-}
+logEachMap( 'ellipk(%0.4f) = %0.4f', m, ellipk );
 ```
 
 </section>
@@ -286,7 +286,7 @@ For more information on the project, filing bug reports and feature requests, an
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
