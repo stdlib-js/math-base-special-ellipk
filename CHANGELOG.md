@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-11)
+## Unreleased (2025-09-13)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`86edcb5`](https://github.com/stdlib-js/stdlib/commit/86edcb559be453cb7d1156076bfc940a37a39af0) - **chore:** add structured package data for packages in `math/base/special` [(#8054)](https://github.com/stdlib-js/stdlib/pull/8054) _(by Gunj Joshi, Athan Reines)_
 -   [`2cffc9d`](https://github.com/stdlib-js/stdlib/commit/2cffc9d24250e42639db3f11cf49bd4e4bc174bf) - **test:** correct test assertion messages _(by Philipp Burckhardt)_
 -   [`0240ed9`](https://github.com/stdlib-js/stdlib/commit/0240ed95c31c83898c7605781a2b73e508b8ef71) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`630ddb7`](https://github.com/stdlib-js/stdlib/commit/630ddb777824b5f6e501fda6dadf4ce41dccb964) - **test:** replace equal with strictEqual _(by Karan Anand)_
@@ -35,9 +36,10 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Gunj Joshi
 -   Harsh
 -   Karan Anand
 -   Philipp Burckhardt
