@@ -65,7 +65,7 @@ where the parameter `m` is related to the modulus `k` by `m = k^2`.
 ## Usage
 
 ```javascript
-import ellipk from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ellipk@esm/index.mjs';
+import ellipk from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ellipk@v0.2.4-esm/index.mjs';
 ```
 
 #### ellipk( m )
@@ -120,7 +120,7 @@ v = ellipk( NaN );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import ellipk from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ellipk@esm/index.mjs';
+import ellipk from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ellipk@v0.2.4-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
