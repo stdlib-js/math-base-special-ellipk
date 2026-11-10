@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-08)
+## Unreleased (2026-11-10)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`2b568bd`](https://github.com/stdlib-js/stdlib/commit/2b568bd727177f95feae9cd3f940084030631b50) - **build:** compile C++ Boost benchmarks with C++14 [(#16556)](https://github.com/stdlib-js/stdlib/pull/16556) _(by Mara Averick)_
 -   [`4ff1612`](https://github.com/stdlib-js/stdlib/commit/4ff16126926ce482b471012528ec526d39cdd1d2) - **build:** upgrade Boost & compile C++ test fixture runners w C++14 [(#16545)](https://github.com/stdlib-js/stdlib/pull/16545) _(by Mara Averick)_
 -   [`8f62240`](https://github.com/stdlib-js/stdlib/commit/8f622403b8f6ff3781a17dc7ceb077e341e91aa3) - **docs:** clean-up [(#16084)](https://github.com/stdlib-js/stdlib/pull/16084) _(by Philipp Burckhardt)_
 -   [`d1fa7ed`](https://github.com/stdlib-js/stdlib/commit/d1fa7edfe3c43f9db25748608875db1dfea52988) - **test:** migrate `math/base/special/ellipk` to ULP-based assertions [(#13943)](https://github.com/stdlib-js/stdlib/pull/13943) _(by Athan Reines)_
